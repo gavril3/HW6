@@ -1,17 +1,36 @@
+* {
+    margin: 10px;
+    padding: 15px;
+    background-color: darkgrey;
+    border-radius: 5%;
+}
 h1
 {font-family: Lobster, cursive; color: rgb(22, 20, 120); }
 .flex {
     color: darkslategrey;
 }
 .title {
-    background-color: gold;
+    background-color: gold; color: darkblue;
 }
 
 #sidebar 
 { font-family: Lobster, cursive; color: rgb(22, 20, 120); background-color: rgb(50, 1200, 256);}
 
-.p 
-{ color: brown;}
+.p, .div
+{ color: brown}
 img {
-    border: 2px outset;
+    border: 2px outset; color: rgb(255, 0, 13); 
+    }
+
+    .li2 {
+        color: darkorange; border: inset indigo;
+    }
+    a[href^="http"] {
+color: rgb(72, 255, 0);
+    }
+    a[href*="code"] {
+        color: rgb(182, 255, 47);
+    }
+    span {
+        color: lawngreen;
     }
