@@ -1,0 +1,17 @@
+h1
+{font-family: Lobster, cursive; color: rgb(22, 20, 120); }
+.flex {
+    color: darkslategrey;
+}
+.title {
+    background-color: gold;
+}
+
+#sidebar 
+{ font-family: Lobster, cursive; color: rgb(22, 20, 120); background-color: rgb(50, 1200, 256);}
+
+.p 
+{ color: brown;}
+img {
+    border: 2px outset;
+    }
